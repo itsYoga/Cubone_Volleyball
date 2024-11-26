@@ -10,8 +10,6 @@ import SpriteKit
 import Observation
 import AVFoundation
 import UIKit
-import Foundation
-
 
 
 // 音樂控制頁面
