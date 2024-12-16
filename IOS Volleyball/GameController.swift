@@ -6,7 +6,6 @@ import UIKit
 import Foundation
 
 // GameController 用來管理遊戲的狀態和歷史紀錄
-@Observable
 class GameController: ObservableObject {
     @Published var scene: VolleyballGameScene
     @Published var showHistoryView = false  // 用來控制顯示歷史紀錄頁面
